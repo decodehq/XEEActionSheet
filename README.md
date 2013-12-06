@@ -6,7 +6,7 @@ XEEActionSheet is a wrapper around UIActionSheet with simplified usage. It is es
 
 ```objc
 
-XEEActionSheet* actionSheet = [XEEActionSheet actionSheetWithTitle:@"Choose your destiny" message:@"Read your options carefully..." cancelButtonTitle:@"Cancel" destructiveButtonTitle:@"Destroy" otherButtonTitles:@"Process", @"Switch", nil];
+XEEActionSheet* actionSheet = [XEEActionSheet actionSheetWithTitle:@"Choose now" message:@"Read your options carefully..." cancelButtonTitle:@"Cancel" destructiveButtonTitle:@"Destroy" otherButtonTitles:@"Process", @"Switch", nil];
 [actionSheet handleAction:^(int buttonIndex) {
     NSLog(@"Option chosen %d", buttonIndex);
 }];
